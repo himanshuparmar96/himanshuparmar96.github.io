@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+function calculator() 
+{
+
+var a=document.getElementById('n1').value;
+var b=document.getElementById('n2').value;	
+var op=document.getElementById('op').value;
+//document.write(op,a,b);
+//document.body.style.backgroundColor = "red";
+document.getElementById('demo').innerHTML='result';
+switch(op)
+{
+	case '+':
+
+		var c=a+b;
+		
+		document.write(c);
+		break;
+
+	case '*':
+
+		var c=a*b;
+		
+		document.write(c)
+		break;
+case '-':
+
+		var c=a-b;
+		document.write(c)
+		break;
+
+	case '/':
+
+		var c=a/b;
+		document.write(c)
+		break;
+
+}
+}
+
+
+</script>
+
+
+<input type="number" name="as" id="n1">
+
+<select name="c" id="op">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+
+
+<input type="number" name="ab" id="n2">
+
+<button  onclick="calculator()">click</button>
+<h1 id="demo">result</h1>
+
+
+
+</body>
+</html>
