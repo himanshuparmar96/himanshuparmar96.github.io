@@ -173,9 +173,10 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(http://www.completewebsolution.net/wp-content/uploads/2016/01/complete-web-solution.jpg) no-repeat center top;
+	//background: url(http://www.completewebsolution.net/wp-content/uploads/2016/01/complete-web-solution.jpg) no-repeat center top;
 	 //background-image: url("https://github.com/himanshuparmar96/himanshuparmar96.github.io/blob/master/img/Technology-wallpapers-3.jpg") !important;
-	background-color: #7bc3d1;
+	//background-color: #7bc3d1;
+	background-image: url("http://www.completewebsolution.net/wp-content/uploads/2016/01/complete-web-solution.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
